@@ -8,7 +8,6 @@ This plugin provides a **shortcode** that can be embedded anywhere on your websi
 ## Features
 - Fetches **next playing song** from AzuraCast WebSocket API.
 - Displays song title dynamically using JavaScript.
-- Customizable **refresh interval** for data updates.
 - Includes **WordPress admin settings page** for configuration.
 - Supports album artwork display (optional).
 
@@ -35,7 +34,6 @@ This will display the next playing song fetched from AzuraCast.
 | **AzuraCast URL**     | Enter the WebSocket API URL.  |
 | **Station Name**      | Set the station name to fetch data from. |
 | **Show Album Art**    | Enable/disable album artwork display. |
-| **Refresh Interval**  | Set how often (in seconds) the data updates. |
 
 ## Contributing
 - Fork this repository on GitHub.
