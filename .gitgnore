@@ -1,0 +1,51 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+
+# Ignore WordPress core files
+/wp-admin/
+/wp-includes/
+/wp-content/cache/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-*
+
+# Ignore dependency files
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore PHPStorm files
+/.phpstorm.meta.php
+
+# Ignore Git metadata from submodules
+/.gitmodules
+/.git/
+
+# Ignore compiled files and cache
+*.compiled
+*.min.js
+*.min.css
+*.map
+cache/
+logs/
+
+# Ignore secrets and environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore WordPress config files (if needed)
+wp-config.php
+wp-config-local.php
