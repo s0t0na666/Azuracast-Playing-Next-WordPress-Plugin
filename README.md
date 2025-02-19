@@ -24,7 +24,7 @@ This plugin provides a **shortcode** that can be embedded anywhere on your websi
 ## Usage
 Add the following **shortcode** anywhere in your WordPress pages or posts:
 ```
-[azuracast_next_song]
+[azura_playing_next]
 ```
 This will display the next playing song fetched from AzuraCast.
 
